@@ -1,0 +1,10 @@
+{
+  "tls": false,
+  "hostname": "localhost",
+  "port": 3210,
+  "routePrefix": null,
+  "httpServerOptions": {},
+  "webSocketOptions": {},
+  "devices": [],
+  "pages": []
+}
