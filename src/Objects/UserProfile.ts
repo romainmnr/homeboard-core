@@ -13,7 +13,7 @@ export interface UserProfileConfig
   imagePath?:string
   dashboardPageId?:string
 
-  pagesIds?:Array<String> 
+  pagesIds?:Array<string> 
 }
 
 /**
@@ -22,12 +22,12 @@ export interface UserProfileConfig
 export class UserProfile extends HBCO
 {
 
-  name: string = ''
-  imagePath: string = ''
+  name = ''
+  imagePath = ''
   role: UserRole = UserRole.USER
-  dashboardPageId:string = ''
+  dashboardPageId = ''
 
-  pagesIds: Array<String> = []
+  pagesIds: Array<string> = []
   
 
   constructor(data: UserProfileConfig)
